@@ -1,7 +1,10 @@
 #include <usart.h>
 #include <stdio.h>
 
-extern uint32_t fibo(uint32_t n);
+
+// assembler function in fibo.S 
+// passing and returning value in a0 register
+extern uint32_t fibo( uint32_t n );
 
 
 void init_usart0() {
