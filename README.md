@@ -6,6 +6,7 @@ Calculate n'th fibonacci number with assembler and print it to serial via C
 It contains various examples that should be reusable in other code
 * Serial output with printf()
 * Linking in an assembler function
+* Power down
 
 Nano        | USB2Serial | Comment
 ------------|------------|--------
